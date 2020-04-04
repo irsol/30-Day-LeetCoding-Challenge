@@ -15,3 +15,9 @@ class Solution(object):
         :type nums: List[int]
         :rtype: None Do not return anything, modify nums in-place instead.
         """
+        pos_zero = 0
+        for i in range(len(nums)):
+            if nums[i] != 0:
+                nums[i], nums[pos_zero] = nums[pos_zero], nums[i]   # swap the positions of the elements
+                i_zero += 1
+        return nums
