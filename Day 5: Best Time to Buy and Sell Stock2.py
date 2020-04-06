@@ -11,4 +11,17 @@
 # Output: 7
 # Explanation: Buy on day 2 (price = 1) and sell on day 3 (price = 5), profit = 5-1 = 4.
             # Then buy on day 4 (price = 3) and sell on day 5 (price = 6), profit = 6-3 = 3.
-            
+
+
+class Solution(object):
+    def maxProfit(self, prices):
+        """
+        :type prices: List[int]
+        :rtype: int
+        """
+        max_profit = 0
+
+        for n in range(len(prices) - 1):
+            if prices[n + 1] > prices[n]:
+                max_profit += prices[n + 1] - prices[n]
+        return max_profit
