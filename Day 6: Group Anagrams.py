@@ -26,11 +26,14 @@ class Solution(object):
         anagram = {}
 
         for s in strs:
+            # Sort every charachter in the string alphabetically
             t = "".join(sorted(s))
-            if t in anagram:
+            # Check if sorted string t is a key in the anagram dictionary
+            if t not in anagram:                
+                anagram[t] = [s]                
+            else: 
                 anagram[t].append(s)
-            else:
-                anagram[t] = [s]
+                  
         return list(anagram.values())
  
 
