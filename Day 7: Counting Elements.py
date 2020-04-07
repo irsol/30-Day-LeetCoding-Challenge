@@ -22,3 +22,22 @@
 # Explanation: 0, 1 and 2 are counted cause 1, 2 and 3 are in arr.
 
 
+# Constraints:
+# 1 <= arr.length <= 1000
+# 0 <= arr[i] <= 1000
+
+
+class Solution(object):
+    def countElements(self, arr):
+        """
+        :type arr: List[int]
+        :rtype: int
+        """
+        t = set()
+        c = 0
+        for n in arr:
+            t.add(n - 1)
+        for n in arr:
+            if n in t:
+                c += 1
+        return c
