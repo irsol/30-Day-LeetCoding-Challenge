@@ -20,3 +20,26 @@
 #
 # Note:
 # The number of nodes in the given list will be between 1 and 100.
+
+
+# Definition for singly-linked list.
+class ListNode(object):
+    def __init__(self, x):
+        self.val = x
+        self.next = None
+
+class Solution(object):
+    def middleNode(self, head):
+        """
+        :type head: ListNode
+        :rtype: ListNode
+        """
+        faster_pointer = head
+        lower_pointer = head
+
+        while faster_pointer and lower_pointer.next:
+            if lower_pointer.next.next == None:
+                return faster_pointer.next
+            faster_pointer = faster_pointer.next
+            lower_pointer = lower_pointer.next.next
+        return faster_pointer
