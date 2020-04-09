@@ -7,8 +7,9 @@ My solutions to 30-Day of LeetCode Challenge.
 [Day 2: Happy Number](https://github.com/irsol/30-Day-LeetCoding-Challenge/blob/master/Day%202:%20Happy%20Number.py)
 
 [Day 3: Maximum Subarray](https://github.com/irsol/30-Day-LeetCoding-Challenge/blob/master/Day%203:%20Maximum%20Subarray.py)
-    - Useful links:
-        [Kadane’s Algorithm](https://medium.com/@rsinghal757/kadanes-algorithm-dynamic-programming-how-and-why-does-it-work-3fd8849ed73d)
+    
+    Useful links:
+        - [Kadane’s Algorithm](https://medium.com/@rsinghal757/kadanes-algorithm-dynamic-programming-how-and-why-does-it-work-3fd8849ed73d)
 
 [Day 4: Move Zeroes](https://github.com/irsol/30-Day-LeetCoding-Challenge/blob/master/Day%204:%20Move%20Zeroes.py)
 
