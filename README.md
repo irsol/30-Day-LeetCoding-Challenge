@@ -15,3 +15,7 @@ My solutions to 30-Day of LeetCode Challenge.
 [Day 6: Group Anagrams](https://github.com/irsol/30-Day-LeetCoding-Challenge/blob/master/Day%206:%20Group%20Anagrams.py)
 
 [Day 7: Counting Elements](https://github.com/irsol/30-Day-LeetCoding-Challenge/blob/master/Day%207:%20Counting%20Elements.py)
+
+[Day 8: Middle of the Linked List](https://github.com/irsol/30-Day-LeetCoding-Challenge/blob/master/Day%208:%20Middle%20of%20the%20Linked%20List.py)
+
+[Day 9: Backspace String Compare](https://github.com/irsol/30-Day-LeetCoding-Challenge/blob/master/Day%209:%20Backspace%20String%20Compare.py)
