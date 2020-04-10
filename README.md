@@ -22,3 +22,5 @@ My solutions to 30-Day of LeetCode Challenge.
 [Day 8: Middle of the Linked List](https://github.com/irsol/30-Day-LeetCoding-Challenge/blob/master/Day%208:%20Middle%20of%20the%20Linked%20List.py)
 
 [Day 9: Backspace String Compare](https://github.com/irsol/30-Day-LeetCoding-Challenge/blob/master/Day%209:%20Backspace%20String%20Compare.py)
+
+[Day 10:  Min Stack]()
