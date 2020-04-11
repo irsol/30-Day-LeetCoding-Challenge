@@ -24,3 +24,5 @@ My solutions to 30-Day of LeetCode Challenge.
 [Day 9: Backspace String Compare](https://github.com/irsol/30-Day-LeetCoding-Challenge/blob/master/Day%209:%20Backspace%20String%20Compare.py)
 
 [Day 10:  Min Stack](https://github.com/irsol/30-Day-LeetCoding-Challenge/blob/master/Day%2010:%20%20Min%20Stack.py)
+
+[Day 11: Diameter of Binary Tree](https://github.com/irsol/30-Day-LeetCoding-Challenge/blob/master/Day%2011:%20Diameter%20of%20Binary%20Tree.py)
