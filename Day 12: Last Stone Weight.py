@@ -12,3 +12,26 @@
 # (or 0 if there are no stones left.)
 
  
+class Solution(object):
+    def lastStoneWeight(self, stones):
+        """
+        :type stones: List[int]
+        :rtype: int
+        """
+        # Check if the list is empty   
+        if len(stones) == 0:
+            return 0
+        elif len(stones) == 1:
+            return stones[0]
+        
+
+        else:
+            stones = sorted(stones)
+            smash_stone1, smash_stone2 = stones.pop(), stones.pop()
+            stones.append(smash_stone1 - smash_stone2)
+            return self.lastStoneWeight(stones)
+
+        
+
+    
+        
