@@ -26,3 +26,5 @@ My solutions to 30-Day of LeetCode Challenge.
 [Day 10:  Min Stack](https://github.com/irsol/30-Day-LeetCoding-Challenge/blob/master/Day%2010:%20%20Min%20Stack.py)
 
 [Day 11: Diameter of Binary Tree](https://github.com/irsol/30-Day-LeetCoding-Challenge/blob/master/Day%2011:%20Diameter%20of%20Binary%20Tree.py)
+
+[Day 12: Last Stone Weight](https://github.com/irsol/30-Day-LeetCoding-Challenge/blob/master/Day%2012:%20Last%20Stone%20Weight.py)
