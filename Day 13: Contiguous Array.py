@@ -31,3 +31,13 @@ class Solution(object):
                 table[count] = index
         return result
             
+
+def build():
+    return [0,1,0]  # 2
+
+
+if __name__ == "__main__":
+
+    solution = Solution()
+    max_len = solution.findMaxLength(build())
+    print(max_len)
