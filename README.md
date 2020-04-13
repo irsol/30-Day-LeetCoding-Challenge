@@ -28,3 +28,5 @@ My solutions to 30-Day of LeetCode Challenge.
 [Day 11: Diameter of Binary Tree](https://github.com/irsol/30-Day-LeetCoding-Challenge/blob/master/Day%2011:%20Diameter%20of%20Binary%20Tree.py)
 
 [Day 12: Last Stone Weight](https://github.com/irsol/30-Day-LeetCoding-Challenge/blob/master/Day%2012:%20Last%20Stone%20Weight.py)
+
+[Day 13: Contiguous Array](https://github.com/irsol/30-Day-LeetCoding-Challenge/blob/master/Day%2013:%20Contiguous%20Array.py)
