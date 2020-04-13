@@ -9,3 +9,25 @@
 # Explanation: [0, 1] is the longest contiguous subarray with equal number of 0 and 1.
 
 
+class Solution(object):
+    def findMaxLength(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
+
+        result, count = 0, 0
+        table = {0: -1}
+
+        for index, num in enumerate(nums):
+            if num == 1:
+                count += 1
+            else:
+                count -= 1
+
+            if  count in table:
+                result = max(result, index - table[count])
+            else:
+                table[count] = index
+        return result
+            
